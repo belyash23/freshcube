@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'amocrm' => [
+        'long_lived_token' => env('AMOCRM_LONG_LIVED_ACCESS_TOKEN'),
+        'url' => env('AMOCRM_URL'),
+    ]
+
 ];
